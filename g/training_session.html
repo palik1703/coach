@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moreon Fitness-ceter</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/coach.css" />
+    <link rel="stylesheet" href="style/training_session.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-wrapper">
+                    <div class="header__top-phone">
+                        <img src="assets/svg/phone.svg" alt="Phone" />
+                        <a href="tel:+79181234567" class="header__top-phone-link">+7 (918) 123-45-67</a>
+                    </div>
+                    <ul class="header__top-social">
+                        <li class="header__top-social-item">
+                            <a href="#" class="header__top-social-link">
+                                <img src="assets/svg/instagram.svg" alt="Instagram" />
+                            </a>
+                        </li>
+                        <li class="header__top-social-item">
+                            <a href="#" class="header__top-social-link">
+                                <img src="assets/svg/facebook.svg" alt="Facebook" />
+                            </a>
+                        </li>
+                        <li class="header__top-social-item">
+                            <a href="#" class="header__top-social-link">
+                                <img src="assets/svg/telegram.svg" alt="Telegram" />
+                            </a>
+                        </li>
+                        <li class="header__top-social-item">
+                            <a href="#" class="header__top-social-link">
+                                <img src="assets/svg/vk.svg" alt="VK" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__bottom-wrapper">
+                    <div class="header__logo">
+                        <img src="assets/svg/logo white.svg" alt="Moreon Fitness logo" />
+                    </div>
+                    <div class="header__menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">О нас</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Услуги</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Тренеры</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Запись на тренеровку</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Отзывы</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Контакты</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#" class="header__menu-link">Личный кабинет</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="booking-section">
+    <div class="container">
+        <h2 class="section-title">Запись на тренировку</h2>
+        
+        <div class="booking-container">
+            <div class="booking-info">
+                <h3 class="info-title">Персональные тренировки с Алексеем</h3>
+                <ul class="benefits-list">
+                    <li class="benefit-item">
+                        <span class="benefit-icon">✓</span>
+                        Индивидуальная программа
+                    </li>
+                    <li class="benefit-item">
+                        <span class="benefit-icon">✓</span>
+                        Контроль питания
+                    </li>
+                    <li class="benefit-item">
+                        <span class="benefit-icon">✓</span>
+                        Гибкий график
+                    </li>
+                    <li class="benefit-item">
+                        <span class="benefit-icon">✓</span>
+                        Быстрый результат
+                    </li>
+                </ul>
+                <div class="price-block">
+                    <span class="price">от 2 500 ₽</span>
+                    <span class="price-note">за тренировку</span>
+                </div>
+            </div>
+            
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Ваше имя*</label>
+                    <input type="text" id="name" class="form-control" required placeholder="Иван Иванов">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone" class="form-label">Телефон*</label>
+                    <input type="tel" id="phone" class="form-control" required placeholder="+7 (999) 123-45-67">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="example@mail.com">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date" class="form-label">Дата*</label>
+                        <input type="date" id="date" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="time" class="form-label">Время*</label>
+                        <select id="time" class="form-control" required>
+                            <option value="">Выберите время</option>
+                            <option value="09:00">09:00</option>
+                            <option value="11:00">11:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="15:00">15:00</option>
+                            <option value="17:00">17:00</option>
+                            <option value="19:00">19:00</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="goal" class="form-label">Цель тренировок</label>
+                    <select id="goal" class="form-control">
+                        <option value="">Не выбрано</option>
+                        <option value="weight-loss">Похудение</option>
+                        <option value="muscle">Набор массы</option>
+                        <option value="fitness">Поддержание формы</option>
+                        <option value="rehab">Реабилитация</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Комментарий</label>
+                    <textarea id="message" class="form-control" rows="3" placeholder="Ваши пожелания..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Записаться сейчас</button>
+                
+                <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+            </form>
+        </div>
+    </div>
+</section>

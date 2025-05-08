@@ -1,0 +1,248 @@
+.trainer-hero {
+    background: linear-gradient(rgba(0, 70, 67, 0.8), rgba(0, 70, 67, 0.8)), 
+    url('../assets/img/coach.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-content {
+    width: 100%;
+}
+
+.trainer-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.trainer-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* Информация о тренере */
+.trainer-section {
+    padding: 0 0 60px;
+}
+
+.trainer-container {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.trainer-photo {
+    flex: 0 0 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 9, 8, 0.1);
+}
+
+.trainer-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.trainer-info {
+    flex: 1;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #004643;
+    margin-bottom: 30px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background-color: #004643;
+}
+
+.trainer-description {
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #666;
+}
+
+.trainer-stats {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 36px;
+    font-weight: 700;
+    color: #004643;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Навыки */
+.skills-container {
+    margin-bottom: 60px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-icon {
+    font-size: 40px;
+    color: #004643;
+    margin-bottom: 15px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000908;
+}
+
+/* Сертификаты */
+.certificates {
+    margin-bottom: 60px;
+}
+
+.certificates-slider {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.certificate-item {
+    flex: 0 0 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Отзывы */
+.reviews {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+}
+
+.review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.review-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review-author {
+    font-weight: 600;
+    color: #000908;
+}
+
+.review-date {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.review-text {
+    font-style: italic;
+}
+
+/* CTA блок */
+.cta-section {
+    background-color: #004643;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-text {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    opacity: 0.9;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: white;
+    color: #004643;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #000908;
+    color: white;
+}
